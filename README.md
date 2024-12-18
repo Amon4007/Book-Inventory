@@ -1,6 +1,6 @@
 # Book Inventory Management CLI
 
-This is a simple Command-Line Interface (CLI) application for managing a book inventory. Users can add, view, update, and delete books stored in an SQLite database.
+This is a simple Command-Line Interface (CLI) application for managing a book inventory. Users can add, view, update, and delete books stored in an SQLite database. By Amon Chirchir
 
 ## Features
 
