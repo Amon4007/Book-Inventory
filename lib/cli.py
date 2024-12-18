@@ -1,8 +1,8 @@
 from helpers import (
     add_book,
-    _books,
+    view_books,
     update_book_status,
-    delete_book,
+    elete_book,
     exit_program
 )
 from models.book import initialize_database
