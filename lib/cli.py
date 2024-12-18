@@ -2,10 +2,10 @@ from helpers import (
     add_book,
     view_books,
     update_book_status,
-    elete_book,
+    delete_book,
     exit_program
 )
-from models.book import initialize_database
+rom models.book import initialize_database
 
 def main():
     """Main function to run the Book Inventory CLI."""
