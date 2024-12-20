@@ -1,60 +1,60 @@
+
 # Book Inventory System
-
 ## Overview
+The Book Inventory System is a Python-based Command-Line Interface (CLI) application designed to manage books and authors in a database. Users can perform various actions, including adding authors and books, viewing records, deleting entries, and navigating through an intuitive menu system. By Amon
 
-The **Book Inventory System** is a Python-based Command-Line Interface (CLI) application designed to manage books and authors in a database. Users can perform various actions, including adding authors and books, viewing records, deleting entries, and navigating through an intuitive menu system. By Amon
+
+
+
+
+
+## Authors
+
+- [Amon](https://github.com/Amon4007/)
+
 
 ## Features
 
-- **Add Authors**: Insert new authors into the database.
-- **Add Books**: Add books with associated genres and authors.
-- **View All Records**:
+- Add Authors: Insert new authors into the database.
+
+- Add Books: Add books with associated genres and authors.
+
+- View All Records:
+
   - Display all authors.
+
   - Display all books.
-- **Delete Records**:
+
+- Delete Records:
+
   - Remove authors.
+
   - Remove books.
-- **Error Handling**: Ensures proper input validation and provides informative error messages.
-- **Database Management**: Utilizes SQLite for storing and managing data.
 
-## Project Structure
+- Error Handling: Ensures proper input validation and provides informative error messages.
 
-```
-Book-Inventory/
-├── cli.py                # Main CLI application
-├── models/
-│   ├── __init__.py       # Package initializer
-│   ├── database.py       # Database connection and table creation
-│   ├── author.py         # Author model
-│   └── book.py           # Book model
-├── Pipfile               # Dependency management
-├── Pipfile.lock          # Lockfile for dependencies
-└── README.md             # Project documentation
-```
+- Database Management: Utilizes SQLite for storing and managing data
+
 
 ## Requirements
+Python 3.8.13 
 
-- Python 3.7+
-- SQLite3
-
-### Dependencies
-
-Dependencies are managed using `pipenv`. Install them with:
+SQLite3
+## Dependencies
+Dependencies are managed using ``pipenv``. Install them with: 
 
 ```bash
 pipenv install
-```
-
+ ```
 ## Setup and Installation
 
-1. Clone the repository:
+1. Clone the repository
 
-   ```bash
-   git clone <repository-url>
-   cd Book-Inventory
-   ```
-
-2. Install dependencies:
+```bash
+  git clone <git@github.com:Amon4007/Book-Inventory.git>
+  cd Book-Inventory
+```
+2. Install dependencies    
 
    ```bash
    pipenv install
@@ -116,15 +116,10 @@ Upon running the application, you will see a menu with the following options:
 | genre      | TEXT    | NOT NULL                   |
 | author\_id | INTEGER | FOREIGN KEY(authors.id)    |
 
-## Contributing
-
-Contributions are welcome! If you encounter bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 ## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Acknowledgments
 
-Special thanks to the developers of Python and SQLite for providing robust tools to build this project.
 
