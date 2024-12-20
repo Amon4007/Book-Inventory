@@ -121,5 +121,10 @@ Upon running the application, you will see a menu with the following options:
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
+![Logo](	https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+
+
+
 
 
